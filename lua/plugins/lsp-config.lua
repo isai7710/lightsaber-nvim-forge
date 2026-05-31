@@ -74,7 +74,9 @@ return {
     --  - settings (table): Override the default settings passed when initializing the server.
     --        For example, to see the options for `lua_ls`, you could go to: https://luals.github.io/wiki/settings/
     local servers = {
-      -- lua_ls = {} -- this guy is being handled by lazydev.nvim plugin
+      -- lazydev.nvim configures lua_ls settings (library paths, vim API types) but does
+      -- NOT install or enable the server — we still need it here for that to happen.
+      lua_ls = {},
       -- CPP:
       clangd = {},
       cmake = {},
@@ -108,7 +110,7 @@ return {
       },
     }
     local formatters = {
-      -- 'stylua',
+      'stylua',
       'prettierd',
       'prettier',
       'isort',

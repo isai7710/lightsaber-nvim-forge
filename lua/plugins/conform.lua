@@ -38,7 +38,7 @@ return {
       }
     end,
     formatters_by_ft = {
-      -- lua = { 'stylua' },
+      lua = { 'stylua' },
       -- Conform can also run multiple formatters sequentially by adding them to the table
       python = { "isort", "black" },
       -- to run the first available formatter add stop_after_first = true
