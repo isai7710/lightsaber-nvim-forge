@@ -5,7 +5,7 @@ return {
   opts = {
     options = {
       section_separators = { left = '', right = '' },
-      theme = 'catppuccin',
+      theme = 'catppuccin-nvim',
       globalstatus = true,
     },
     sections = {

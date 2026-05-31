@@ -16,6 +16,7 @@ return {
         colored_indent_levels = false,
       },
       treesitter = true,
+      treesitter_context = true,
       mason = true,
       telescope = {
         enabled = true,
@@ -45,6 +46,6 @@ return {
     },
   },
   init = function()
-    vim.cmd.colorscheme 'catppuccin'
+    vim.cmd.colorscheme 'catppuccin-nvim'
   end
 }
