@@ -1,5 +1,5 @@
 --[[
--- Welcome to my personal neovim config
+-- Welcome esteemed traveler to my personal neovim config
 -- I couldn't have started this config without help from the kickstart.nvim and modular-kickstart.nvim repos, shout out TJ fr, I left a lot of helpful comments from those repositories here for help
 
 10-15 min Lua guide:
